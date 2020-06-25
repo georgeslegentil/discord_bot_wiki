@@ -1,8 +1,8 @@
 const discord = require('discord.js');
 const url = require('url');
 const client = new discord.Client();
-const token = 'NzIwMzA4Mjk0MzEyMzk0Nzcy.XuEMZQ.K-2LE5ys44CtbL3HqG4gkoIpXXE';
-const channel_id = '560976109081198594';
+const token = ""//token_bot;
+const channel_id = '' //channel id;
 
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
